@@ -39,12 +39,11 @@ body{
     .nav-link:hover,
     .nav-link:focus{
         color: #404bbf; }
-    .page-adress{}
+    .page-adress{font-style: normal;}
     .adress-list
     .address-link{
         font-family: "Raleway",
             sans-serif;
-        font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 150%;
@@ -53,7 +52,7 @@ body{
         text-decoration: none;}
     .address-link:hover,
     .address-link:focus{
-        color: #404bbf;  }
+        color: #404bbf;}
 
 /* #endregion header */
 /* #region hero */
