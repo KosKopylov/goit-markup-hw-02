@@ -1,0 +1,15 @@
+.body {font-family: Roboto, sans-serif;
+color: #434455;}
+/* #region header */
+.page-header{}
+.page-nav{}
+.header-logo{}
+.nav-list{}
+.nav-list-item{}
+.nav-link{}
+/* #endregion header */
+/* #region hero */
+.section-hero{}
+.title-hero{}
+.button-hero{}
+/* #endregion hero */
