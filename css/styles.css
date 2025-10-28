@@ -40,8 +40,8 @@ body{
     .nav-link:focus{
         color: #404bbf; }
     .page-adress{}
-    .adress-list{font-style: normal;}
-    .adress-list-item .address-link{
+    .adress-list
+    .address-link{
         font-family: "Raleway",
             sans-serif;;
         font-weight: 400;
@@ -49,9 +49,10 @@ body{
         line-height: 150%;
         letter-spacing: 0.02em;
         color: #434455;
-        text-decoration: none;}
-     .adress-list-item .address-link:hover,
-     .adress-list-item .address-link:focus{
+        text-decoration: none;
+        font-style: normal;}
+    .address-link:hover,
+    .address-link:focus{
         color: #4D5AE5;  }
 
 /* #endregion header */
