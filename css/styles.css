@@ -39,7 +39,7 @@ body{
     .nav-link:hover,
     .nav-link:focus {
         color: #4D5AE5; }
-    .page-adress {}
+    .page-adress{font-style: normal;}
     .adress-list {}
     .adress-list-item .address-link{
         font-family: "Raleway",
@@ -79,7 +79,7 @@ body{
     .button-hero:focus{background-color: #404bbf;}
 /* #endregion hero */
 /* #region description */
-.description-h3{
+.description-title{
         font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-size: 20px;
@@ -108,7 +108,7 @@ body{
     text-align: center;
     text-transform: capitalize;
     color: #2E2F42}
-    .team-list{background-color: #FFFFFF;}
+    .team-list-item{background-color: #FFFFFF;}
     .team-name{
         font-family: "Roboto", sans-serif;
         font-weight: 500;
@@ -157,6 +157,7 @@ color: #2e2f42;
     color: #434455;
 }
 /* #endregion portfolio */
+/* #region footer */
 .footer{
     background-color: #2e2f42;
 }
@@ -167,8 +168,17 @@ color: #2e2f42;
     line-height: 117%;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #f4f4fd;
+    color: #4D5AE5;
     text-decoration: none;}
+    .footer-studio{
+        font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 117%;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #f4f4fd;}
+
 .footer-text{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -176,3 +186,4 @@ color: #2e2f42;
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #f4f4fd;}
+        /* #endregion footer */
