@@ -43,17 +43,17 @@ body{
     .adress-list
     .address-link{
         font-family: "Raleway",
-            sans-serif;;
+            sans-serif;
+        font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 150%;
         letter-spacing: 0.02em;
         color: #434455;
-        text-decoration: none;
-        font-style: normal;}
+        text-decoration: none;}
     .address-link:hover,
     .address-link:focus{
-        color: #4D5AE5;  }
+        color: #404bbf;  }
 
 /* #endregion header */
 /* #region hero */
